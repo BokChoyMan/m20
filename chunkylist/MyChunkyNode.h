@@ -4,9 +4,19 @@
 #include "ChunkyNode.h"
 
 class MyChunkyNode: public ChunkyNode {
-  // TODO: Member Variables
+  // TODO: Add any member variables you need.
 public:
-  // TODO: Member Function Declarations
+  // TODO: Constructor(s)
+  // TODO: Destructor
+
+  // These functions are needed by the autograder.
+  // See ChunkyNode.h for their descriptions.
+  int          count() const;
+  std::string* items() const;
+  ChunkyNode*  prev()  const;
+  ChunkyNode*  next()  const;
+
+  // TODO: Add any other member functions you need.
 };
 
 #endif
