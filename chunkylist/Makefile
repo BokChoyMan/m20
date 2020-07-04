@@ -1,6 +1,12 @@
 CXXFLAGS = -g -std=c++17 -Wall -Wextra -Werror
 CXX      = g++
 
+# Magic Variables!
+# https://www.gnu.org/software/make/manual/html_node/Automatic-Variables.html
+#  $@ is the name of the target
+#  $+ is a list of all the dependencies
+#  $< is the first dependency
+
 main: main.o ChunkyList.o MyChunkyList.o MyChunkyNode.o
 	${CXX} $(CXXFLAGS) -o $@ $+
 
