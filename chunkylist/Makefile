@@ -19,7 +19,7 @@ ChunkyList.o: ChunkyList.cpp ChunkyList.h ChunkyNode.h
 MyChunkyList.o: MyChunkyList.cpp MyChunkyList.h MyChunkyNode.h ChunkyList.h ChunkyNode.h
 	${CXX} $(CXXFLAGS) -c -o $@ $<
 
-MyChunkyNode.o: main.cpp MyChunkyNode.cpp MyChunkyNode.h ChunkyNode.h
+MyChunkyNode.o: MyChunkyNode.cpp MyChunkyNode.h ChunkyNode.h
 	${CXX} $(CXXFLAGS) -c -o $@ $<
 
 clean:
