@@ -2,7 +2,7 @@
 #include <iostream>
 
 // This is an example main file - it won't be graded.
-// Use it to interact with your list an make sure it works!
+// Use it to interact with your list and make sure it works!
 
 int main() {
   ChunkyList* list = ChunkyList::create(5);

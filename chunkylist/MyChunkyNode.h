@@ -11,10 +11,10 @@ public:
 
   // These functions are needed by the autograder.
   // See ChunkyNode.h for their descriptions.
-  int          count() const;
-  std::string* items() const;
-  ChunkyNode*  prev()  const;
-  ChunkyNode*  next()  const;
+  int           count() const;
+  std::string*  items() const;
+  MyChunkyNode* prev()  const;
+  MyChunkyNode* next()  const;
 
   // TODO: Add any other member functions you need.
 };

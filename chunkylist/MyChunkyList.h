@@ -17,8 +17,8 @@ public:
   void         remove(int index);
 
   // These functions are needed by the autograder:
-  ChunkyNode* head() const;
-  ChunkyNode* tail() const;
+  MyChunkyNode* head() const;
+  MyChunkyNode* tail() const;
 
   // TODO: Add any other member functions you need.
 };
